@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from GitHub
-                git url: 'https://github.com/ChaytaliJ/my-node-app2.git', branch: 'main'
+                git url: 'https://github.com/ChaytaliJ/my-node-app2.git', branch: 'master'
             }
         }
 
