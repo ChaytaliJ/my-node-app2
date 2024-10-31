@@ -27,6 +27,6 @@ pipeline {
             steps {
                 bat 'npm test'
             }
-        }
-    }
+        }
+    }
 }
